@@ -16,7 +16,7 @@ int main(void)
 		while (alphabet <= 'z')
 	{
 			printf("%c ", alphabet);
-			alphabet++
+			alphabet++;
 		return (0);
 	}
 }
