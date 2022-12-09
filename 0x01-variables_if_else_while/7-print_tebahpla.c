@@ -4,7 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Prints the alphabets a to z in lowercase 
+ * main - Prints the alphabets z to a in reserve
  *
  * Return: Always 0.
 */
@@ -15,7 +15,7 @@ int main(void)
 	while (alphabet >= 'a')
 	{
 		putchar(alphabet);
-		alphabet++;
+		alphabet--;
 	}
 	putchar('\n');
 	return (0);
