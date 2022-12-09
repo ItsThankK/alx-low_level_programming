@@ -14,8 +14,8 @@ int main(void)
 
 	while (num < 10)
 	{
-		putchar("%d\n" ,num);
-		num++
+		prinf("%d\n" ,num);
+		num++;
 	}
 	return (0);
 }
