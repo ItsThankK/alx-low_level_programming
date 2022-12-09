@@ -5,7 +5,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - Prints the alphabets a to z in lowercase 
- * followed by A to Z in uppercase 
+ *        followed by A to Z in uppercase 
  *
  * Return: Always 0.
 */
