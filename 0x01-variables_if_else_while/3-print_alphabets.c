@@ -4,8 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Prints the alphabets a to z in lowercase 
- *        followed by A to Z in uppercase 
+ * main - Prints a to z in lowercase and uppercase 
  *
  * Return: Always 0.
 */
