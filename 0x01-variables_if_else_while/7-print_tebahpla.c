@@ -4,7 +4,8 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Prints the alphabets z to a in reserve
+ * main - Prints the alphabets z to a in reserv
+ *
  * 
  *
  * Return: Always 0.
