@@ -5,6 +5,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - Prints the alphabets z to a in reserve
+ * 
  *
  * Return: Always 0.
 */
