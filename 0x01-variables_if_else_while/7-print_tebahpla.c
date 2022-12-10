@@ -1,24 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /**
- * main - Prints the alphabets z to a in reserve
- *
- * 
+ * main - Prints the lowercase alphabet in reverse.
  *
  * Return: Always 0.
-*/
+ */
 int main(void)
 {
-	char alphabet = 'z';
+	char letter;
 
-	while (alphabet >= 'a')
-	{
-		putchar(alphabet);
-		alphabet--;
-	}
+	for (letter = 'z'; letter >= 'a'; letter--)
+		putchar(letter);
+
 	putchar('\n');
+
 	return (0);
 }
