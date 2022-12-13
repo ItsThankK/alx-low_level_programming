@@ -1,12 +1,18 @@
-#include <stdio.h>
-/* betty style doc for function main goes there */
+#include "main.h"
 /**
- * main - Prints a random number and states whether
- *        it is positive, negative, or zero.
- *
- * Return: Always 0.
-*/
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
+ */
 int main(void)
-{	putchar(_putchar);
+{
+	char s[] = "_putchar";
+
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(s[c]);
+	}
+	_putchar('\n');
 	return (0);
 }
